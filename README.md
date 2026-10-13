@@ -14,11 +14,19 @@
 
 ## 📌 Executive Summary
 
+<<<<<<< HEAD
 Traditional Anti-Money Laundering (AML) and transaction monitoring systems bombard compliance teams with **thousands of disconnected alerts daily**, suffering from **>95% false-positive rates** and missing multi-hop laundering schemes. 
 
 **FINNEXUS** reimagines financial crime defense with an enterprise-grade orchestration platform inspired by industry titans like **NICE Actimize (ActOne / AMLOCK)**, **Feedzai**, **Sardine**, and **Palantir Foundry**:
 
 1. **Eliminates Alert Fatigue**: Aggregates multi-account scam rings and synthetic identity networks into **1 Scannable Master Incident Card** instead of spamming 5 separate alert rows.
+=======
+Traditional Anti-Money Laundering (AML) and transaction monitoring systems bombard compliance teams with thousands of disconnected alerts daily, suffering from **>95% false-positive rates** and missing multi-hop laundering schemes. 
+
+**FINNEXUS** reimagines financial crime defense with an enterprise-grade orchestration platform inspired by industry titans like **NICE Actimize (ActOne / AMLOCK)**, **Feedzai**, **Sardine**, and **Palantir Foundry**:
+
+1. **Eliminates Alert Fatigue**: Aggregates multi-account scam rings into **1 Scannable Master Incident Card** instead of spamming 5 separate alert rows.
+>>>>>>> 52c9bfa9784d1ce005eb7bb9b1998f85645aa3e2
 2. **Exposes Hidden Money-Laundering Rings**: Runs dynamic directed graph cycle detection (`networkx.simple_cycles`) to instantly flag circular layering loops ($A \rightarrow B \rightarrow C \rightarrow D \rightarrow A$).
 3. **Whitebox Explainability**: Replaces black-box scores with Feedzai-style 5-dot severity indicators (`●●●●●`), Sardine-style Z-score telemetry, and plain-English AI narrative directives.
 4. **Friction-Reducing Orchestration**: Allows compliance analysts to execute 1-click actions (`Approve`, `Hold & Send Step-Up OTP`, `Freeze Account`) with automated Amazon-style tracking timelines and immutable audit logging.
@@ -58,6 +66,7 @@ flowchart TD
     AIC --> TIMELINE
     TIMELINE --> ACTIONS_BTN
     ACTIONS_BTN --> AUDIT
+<<<<<<< HEAD
 ```
 
 ---
@@ -217,3 +226,5 @@ When presenting FINNEXUS to judges, follow this 3-step walkthrough:
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+=======
+>>>>>>> 52c9bfa9784d1ce005eb7bb9b1998f85645aa3e2
